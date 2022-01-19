@@ -277,6 +277,8 @@ namespace BDArmory.Modules
             if (BDArmorySetup.Instance.ActiveWeaponManager != null) BDArmorySetup.Instance.ActiveWeaponManager.UpdateList();
         }
 
+        // Test
+
         [KSPEvent(guiActive = true, guiName = "#LOC_BDArmory_FireMissile", active = true)]//Fire Missile
         public void GuiFire()
         {
